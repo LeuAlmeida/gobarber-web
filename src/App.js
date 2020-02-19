@@ -1,10 +1,16 @@
 import React from 'react';
+import { Router } from 'react-router-dom';
 
 // import { Container } from './styles';
 
+import Routes from './routes';
+import history from './services/history';
+
 function App() {
   return (
-    <div />
+    <Router history={history}>
+      <Routes />
+    </Router>
   );
 }
 
