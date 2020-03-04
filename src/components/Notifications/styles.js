@@ -4,7 +4,7 @@ import { lighten } from 'polished';
 
 export const Container = styled.div`
   position: relative;
-  z-index: 1000;
+  z-index: 5;
 `;
 
 export const Badge = styled.button`
