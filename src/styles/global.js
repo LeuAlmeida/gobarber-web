@@ -1,9 +1,9 @@
 import { createGlobalStyle } from 'styled-components';
-
 import 'react-perfect-scrollbar/dist/css/styles.css';
 import 'react-toastify/dist/ReactToastify.css';
 
 export default createGlobalStyle`
+
   @import url('https://fonts.googleapis.com/css?family=Roboto:400,700&display=swap');
 
   * {
@@ -12,13 +12,13 @@ export default createGlobalStyle`
     outline: 0;
     box-sizing: border-box;
   }
-
   *:focus {
     outline: 0;
   }
 
   html, body, #root {
-    height: 100%;
+    height:100%;
+    background: linear-gradient(-90deg, #7159c1, #ab59c1);
   }
 
   body {
@@ -33,11 +33,11 @@ export default createGlobalStyle`
     text-decoration: none;
   }
 
-  ul {
+  ul, li {
     list-style: none;
   }
 
   button {
-    cursor: pointer;
+     cursor: pointer;
   }
 `;
